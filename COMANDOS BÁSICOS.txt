@@ -1,0 +1,63 @@
+﻿[ Como instalar o Bot Noelle-MD no termux :
+
+Abra o Termux => {
+  
+  
+PRIMEIRO COMANDO….
+
+
+pkg upgrade -y && pkg update -y && pkg install git -y && pkg install nodejs -y && pkg install nodejs-lts -y
+
+
+
+
+
+
+SEGUNDO COMANDO…..
+
+
+termux-setup-storage
+
+
+
+
+
+
+
+
+TERCEIRO COMANDO….
+
+
+cd /sdcard/Noellebotv1
+
+
+
+QUARTO COMANDO…
+
+
+pkg install ffmpeg -y && pkg install tesseract -y && pkg install python -y:
+
+
+
+
+QUINTO COMANDO…
+
+
+pkg install ffmpeg -y && pkg install wget -y
+
+
+último comando...
+
+sh start.sh
+
+Este último comando, inicializara o bot, e vai gerar o qrcode, você precisará de um segundo celular, para tirar foto do qrcode e escanear a foto que você tirou, com um segundo whatsapp, pode ser da categoria bussines, você vai na parte de conectar aparelhos, e se tiver escolha lá, escolha entrar na versão beta, e depois Escaneie, a foto tirada que está no outro celular, boa sorte.
+  
+  
+  Se deseja configurar o Bot, número de Dono, e etc.. 
+  
+  Digite o seguinte comando :
+  
+  
+  ${prefix}configurar-bot
+  
+  Vangeance💚💚
